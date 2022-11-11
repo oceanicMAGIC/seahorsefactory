@@ -44,7 +44,7 @@
 
 .last {
     background-image: url("./images/background_sometimes_two.png");
-    background-repeat: none;
+/*     background-repeat: none; */
     background-size: contain;
     background-position: 7.3em;
 }
