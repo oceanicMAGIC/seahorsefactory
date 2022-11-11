@@ -1,0 +1,49 @@
+* {
+    cursor: wait;
+}
+
+#image_container {
+    background-color: lightcyan;
+    display: grid;
+    grid-template-columns: repeat(6, 15%);
+    grid-template-columns: repeat(4, 22%);
+}
+
+/* image style */
+
+#image_container img {
+    height: 200px;
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-delay: 0s;
+}
+
+#image_container img:hover {
+    background-color: orange;
+}
+
+
+/* style for specific images */
+
+#random {
+    background-image: url("./images/background_sometimes.png");
+    background-repeat: none;
+    background-size: contain;
+}
+
+#random2 {
+    background-image: url("./images/duckbilleddinosracetothefinish.webp");
+    /* background-repeat: none; */
+    background-size: contain;
+  }
+
+  #resizer {
+    background-image: url("./images/background_three.png");
+    background-size: contain;
+  }
+
+#last {
+    background-image: url("./images/background_sometimes_two.png");
+    background-repeat: none;
+    background-size: contain;
+}
